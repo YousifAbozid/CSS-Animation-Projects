@@ -30,7 +30,7 @@ a:before {
     z-index: -1;
 }
 
-a::after {
+a:after {
     content: "";
     position: absolute;
     left: 0;
