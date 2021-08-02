@@ -40,7 +40,7 @@ ul li a span {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: 0.5s;
     color: white;
     font-size: 20px;
     text-transform: capitalize;
@@ -67,7 +67,7 @@ a:before {
     background-color: #16a085;
     transform: scaleX(0);
     transform-origin: left;
-    transition: all 0.5s;
+    transition: 0.5s;
 }
 
 a:hover:before {
