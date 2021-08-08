@@ -2,7 +2,7 @@
 
 ### These projects introduced in this [course](https://www.udemy.com/course/css-animation-transitions-and-transforms-creativity-course/) on Udemy.
 
-#### And to see what's really going on do as follow:
+#### And to see what's really going on, do as follows:
 
 1- Clone this repository to you local machine by executing this command:
 
