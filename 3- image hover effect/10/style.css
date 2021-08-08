@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Lato", sans-serif;
-    background-color: #212121;
+    background-color: #272727;
 }
 
 .container {
@@ -71,33 +71,34 @@ a {
     align-self: center;
 }
 
-/* EFFECTS STYLES GOES HERE */
-.container {
-    background-color: #444;
-    border: 10px solid white;
-    overflow: hidden;
-}
-
-img {
-    transition: all 0.5s;
-    /* transition-delay: 0.5s; */
-}
-
-.container:hover img {
-    transform: rotate(720deg) scale(0);
-    opacity: 0;
-    transition-delay: 0s;
-}
-
+/* OUR EFFECT STYLES GOES HERE */
 .container:before {
-    background-color: #006266;
-    opacity: 0;
-    transition: all 0.3s;
+    transform: translate(650px, -100px) rotate(180deg);
+    transition: all 0.2s;
 }
 
 .container:hover:before {
-    opacity: 1;
+    transform: translate(0, 0) rotate(0deg);
+}
+
+h2 {
+    transform: translateY(-150px);
+    transition: all 0.2s;
+}
+
+.container:hover h2 {
+    transform: translateY(0px);
     transition-delay: 0.5s;
+}
+
+p {
+    transform: translateX(300px) rotate(90deg);
+    transition: all 0.2s;
+}
+
+.container:hover p {
+    transform: translateX(0) rotate(0deg);
+    transition-delay: 0.4s;
 }
 
 a {
@@ -106,26 +107,10 @@ a {
 }
 
 .container:hover a {
-    transform: translateY(0);
-    transition-delay: 0.5s;
+    transform: translateY(0px);
+    transition-delay: 0.3s;
 }
 
-p {
-    transform: translateY(-300px);
-    transition: all 0.2s;
-}
-
-.container:hover p {
-    transform: translateY(0);
-    transition-delay: 0.7s;
-}
-
-h2 {
-    transform: translateY(-300px);
-    transition: all 0.2s;
-}
-
-.container:hover h2 {
-    transform: translateY(0);
-    transition-delay: 0.9s;
+.container {
+    overflow: hidden;
 }
