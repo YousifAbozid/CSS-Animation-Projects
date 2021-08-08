@@ -4,7 +4,8 @@
 
 #### And to see what's really going on do as follow:
 
-1- Clone this repository to you local machine by executing this command
+1- Clone this repository to you local machine by executing this command:
+
 `git clone https://github.com/YousifAbozid/CSS-Animation-Projects.git`
 
 2- Open your code editor (I prefer VSCode) and you can run the server by using this [extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) It's very useful and handy.
